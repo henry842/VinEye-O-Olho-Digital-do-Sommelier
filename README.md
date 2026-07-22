@@ -1,82 +1,192 @@
-# 🍷 VinEye — O Olho Digital do Sommelier
+# VinEye - Digital Sommelier
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
-![Random Forest](https://img.shields.io/badge/Random_Forest-Scikit--Learn-F7931E?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Concluído-00d4ff?style=flat-square)
-
-**Previsão de qualidade de vinhos tintos com Random Forest e análise de correlações químicas.**
-
-</div>
-
----
-
-## 📋 Sobre o Projeto
-
-Utilizando o famoso dataset de vinhos tintos portugueses, este projeto treina um modelo para **prever a nota de qualidade** de um vinho com base em suas propriedades físico-químicas — como se fosse um sommelier digital.
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-lightblue)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-yellow)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-success)
+![Language](https://img.shields.io/badge/Language-EN%20%7C%20PT--BR-blue)
 
 ---
 
-## 🔬 Análise Exploratória
+## Tech Stack | Tecnologias Utilizadas
 
-Correlações investigadas:
-- `alcohol` × `quality` — maior teor alcoólico tende a notas maiores
-- `volatile acidity` × `quality` — acidez volátil reduz qualidade percebida
-- `sulphates` × `quality` — sulfatos em quantidade adequada melhoram a conservação
+**EN**
+- Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
----
-
-## 🤖 Modelagem
-
-| Etapa | Detalhe |
-|-------|---------|
-| Baseline | Regressão Logística |
-| Modelo Final | Random Forest Classifier |
-| Otimização | GridSearchCV para hiperparâmetros |
-| Avaliação | Acurácia, F1-Score, Matriz de Confusão |
-
-### Hiperparâmetros otimizados:
-- `n_estimators` — número de árvores
-- `max_depth` — profundidade máxima
-- `min_samples_split` — mínimo de amostras para split
+**PT-BR**
+- Jupyter Notebook
+- Python
+- Pandas para manipulacao e analise de dados
+- NumPy para computacao numerica
+- Matplotlib para visualizacao
+- Seaborn para graficos estatisticos
+- Scikit-learn para machine learning
 
 ---
 
-## 📊 Features Mais Importantes
+## Executive Summary | Resumo Executivo
 
-1. `alcohol` — teor alcoólico
-2. `sulphates` — nível de sulfatos
-3. `volatile acidity` — acidez volátil
-4. `citric acid` — ácido cítrico
-5. `total sulfur dioxide`
+**EN**
 
----
+Wine analytics, classification and recommendation signals. This project was organized as a portfolio-ready case study: it explains the objective, the analytical path, the visual evidence and the practical interpretation behind the result.
 
-## 🛠️ Tecnologias
+Main objective: Analyze wine characteristics to support quality interpretation and sommelier-style recommendations.
 
-- **Random Forest / Scikit-Learn**
-- **GridSearchCV** — otimização de hiperparâmetros
-- **Pandas / NumPy / Seaborn**
-- **Jupyter Notebook**
+**PT-BR**
+
+Analise de vinhos, classificacao e sinais para recomendacao. Este projeto foi organizado como um estudo de caso pronto para portfolio: explica o objetivo, o caminho analitico, as evidencias visuais e a interpretacao pratica por tras do resultado.
+
+Objetivo principal: Analisar caracteristicas de vinhos para apoiar interpretacao de qualidade e recomendacoes no estilo sommelier.
 
 ---
 
-## 🚀 Como Executar
+## Project Workflow | Fluxo do Projeto
 
-```bash
-git clone https://github.com/henry842/VinEye-O-Olho-Digital-do-Sommelier.git
-cd VinEye-O-Olho-Digital-do-Sommelier
-pip install -r requirements.txt
-jupyter notebook vineye.ipynb
-```
+**EN**
+- Define the business or analytical question.
+- Prepare, clean and structure the available data or inputs.
+- Explore patterns through tables, metrics and visualizations.
+- Apply statistical logic, SQL, machine learning or application rules when relevant.
+- Translate the output into insights, limitations and next steps.
+
+**PT-BR**
+- Definir a pergunta de negocio ou de analise.
+- Preparar, limpar e estruturar os dados ou entradas disponiveis.
+- Explorar padroes por meio de tabelas, metricas e visualizacoes.
+- Aplicar logica estatistica, SQL, machine learning ou regras de aplicacao quando fizer sentido.
+- Traduzir o resultado em insights, limitacoes e proximos passos.
 
 ---
 
-<div align="center">
-  <a href="https://github.com/henry842">👤 henry842</a> •
-  <a href="https://github.com/henry842?tab=repositories">📂 Outros projetos</a>
-</div>
+## Data Storytelling | Narrativa dos Dados
+
+### Chapter 1 - Data Understanding | Entendimento dos Dados
+
+![Data Understanding | Entendimento dos Dados](assets/readme/project_overview.svg)
+
+**EN**
+
+What the dataset or inputs represent, what each observation means and which business problem is being explored.
+
+**PT-BR**
+
+O que a base ou entradas representam, qual e o significado de cada observacao e qual problema de negocio esta sendo explorado.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 2 - Exploratory Analysis | Analise Exploratoria
+
+**EN**
+
+The first visual layer reveals distributions, outliers, concentrations and relationships that guide the rest of the project.
+
+**PT-BR**
+
+A primeira camada visual revela distribuicoes, outliers, concentracoes e relacoes que orientam o restante do projeto.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 3 - Modeling / Logic | Modelagem ou Logica
+
+**EN**
+
+The project translates data into decisions using statistical reasoning, rules, SQL logic, machine learning or an interactive workflow.
+
+**PT-BR**
+
+O projeto transforma dados em decisoes usando raciocinio estatistico, regras, logica SQL, machine learning ou fluxo interativo.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
+
+### Chapter 4 - Results and Interpretation | Resultados e Interpretacao
+
+**EN**
+
+The outputs are interpreted in practical language so the repository works as both technical evidence and portfolio storytelling.
+
+**PT-BR**
+
+Os resultados sao interpretados em linguagem pratica para que o repositorio funcione como evidencia tecnica e narrativa de portfolio.
+
+**Insight | Insight**
+- EN: Visual evidence helps connect the technical result to a concrete decision or interpretation.
+- PT-BR: A evidencia visual ajuda a conectar o resultado tecnico a uma decisao ou interpretacao concreta.
 
 ---
+
+## Repository Structure | Estrutura do Repositorio
+
+**EN**
+- `README.md`: complete bilingual project documentation.
+- `*.ipynb`: notebooks with the analytical workflow, experiments or visual exploration.
+- `*.py`: scripts, helpers or application logic used by the project.
+- `assets/readme/` or chart folders: visual outputs used in this README.
+
+**PT-BR**
+- `README.md`: documentacao completa e bilingue do projeto.
+- `*.ipynb`: notebooks com o fluxo analitico, experimentos ou exploracao visual.
+- `*.py`: scripts, auxiliares ou logica de aplicacao usada no projeto.
+- `assets/readme/` ou pastas de graficos: saidas visuais usadas neste README.
+
 ---
+
+## How to Run | Como Executar
+
+**EN**
+1. Clone the repository.
+2. Create a virtual environment when the project uses Python.
+3. Install the required libraries listed in the notebook/script imports or in `requirements.txt`, when available.
+4. Run the notebooks or scripts from the repository root so relative paths keep working.
+
+**PT-BR**
+1. Clone o repositorio.
+2. Crie um ambiente virtual quando o projeto usar Python.
+3. Instale as bibliotecas indicadas nos imports dos notebooks/scripts ou em `requirements.txt`, quando existir.
+4. Execute notebooks ou scripts a partir da raiz do repositorio para manter os caminhos relativos funcionando.
+
+---
+
+## Key Takeaways | Principais Aprendizados
+
+**EN**
+- The repository is documented as an end-to-end analytical story, not only as code storage.
+- Visuals, when available, are placed directly in the README to make the result easier to inspect.
+- The bilingual format makes the project accessible to both English and Portuguese readers.
+
+**PT-BR**
+- O repositorio esta documentado como uma historia analitica ponta a ponta, nao apenas como armazenamento de codigo.
+- Os visuais, quando disponiveis, ficam diretamente no README para facilitar a leitura do resultado.
+- O formato bilingue torna o projeto acessivel para leitores em ingles e portugues.
+
+---
+
+## Future Improvements | Proximos Passos
+
+- Add automated chart export to keep README visuals updated.
+- Add a `requirements.txt` or environment file when dependencies are needed.
+- Include data dictionary, modeling assumptions and evaluation metrics when applicable.
+- Adicionar exportacao automatica dos graficos para manter o README atualizado.
+- Adicionar `requirements.txt` ou arquivo de ambiente quando houver dependencias.
+- Incluir dicionario de dados, premissas de modelagem e metricas de avaliacao quando aplicavel.
+
+---
+
+## Author | Autor
+
+Henry
